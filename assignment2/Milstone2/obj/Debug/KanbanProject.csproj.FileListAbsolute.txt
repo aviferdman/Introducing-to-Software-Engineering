@@ -1,0 +1,6 @@
+C:\Users\ASUS\milestone-2-team28\Milstone2\Milstone2\bin\Debug\Milstone2.exe.config
+C:\Users\ASUS\milestone-2-team28\Milstone2\Milstone2\bin\Debug\Milstone2.exe
+C:\Users\ASUS\milestone-2-team28\Milstone2\Milstone2\bin\Debug\Milstone2.pdb
+C:\Users\ASUS\milestone-2-team28\Milstone2\Milstone2\obj\Debug\KanbanProject.csprojResolveAssemblyReference.cache
+C:\Users\ASUS\milestone-2-team28\Milstone2\Milstone2\obj\Debug\Milstone2.exe
+C:\Users\ASUS\milestone-2-team28\Milstone2\Milstone2\obj\Debug\Milstone2.pdb
