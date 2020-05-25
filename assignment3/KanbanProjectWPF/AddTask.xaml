@@ -1,0 +1,80 @@
+﻿<Window x:Class="KanbanProjectWPF.AddTask"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:KanbanProjectWPF"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes" 
+        mc:Ignorable="d" Height="350" Background="#FFE8EAED" Width="350" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" WindowStyle="None"
+        Title="AddTask" BorderThickness="1">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="39*"/>
+            <RowDefinition Height="70*"/>
+            <RowDefinition Height="203*"/>
+            <RowDefinition Height="38*"/>
+
+        </Grid.RowDefinitions>
+
+
+        <Grid Grid.Row="0" Background="#FF4467AB" MouseDown="Grid_MouseDown">
+            <Grid>
+                <TextBlock Text="IPF Technology Kanban Board" Padding="20,3,3,3" HorizontalAlignment="Stretch" TextAlignment="Left" VerticalAlignment="Center" FontFamily="WS Simple Gallifreyan" Foreground="White" FontSize="16" TextDecorations="{x:Null}"/>
+            </Grid>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Margin="10,0">
+                <Button x:Name="Back_Button"  Width="50" Height="25" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White" Click="Back_Button_Click">
+                    <materialDesign:PackIcon Kind="BackspaceOutline"/>
+                </Button>
+
+            </StackPanel>
+        </Grid>
+
+
+        <Grid Grid.Row="1">
+            <TextBlock Text="Add new task to the board" Foreground="#FF4467AB" HorizontalAlignment="Center" VerticalAlignment="Center" FontFamily="WS Simple Gallifreyan" FontSize="24" FontWeight="Bold"  TextDecorations="{x:Null}" TextWrapping="Wrap" TextAlignment="Center"/>
+        </Grid>
+        <Grid Grid.Row="2" Margin="0,0,0,1">
+            <TextBlock Text="Please enter the task information" HorizontalAlignment="Center" VerticalAlignment="Center" FontFamily="WS Simple Gallifreyan" FontSize="18" TextDecorations="{x:Null}" FontWeight="Bold" FontStretch="Expanded" Foreground="#FF4467AB" Margin="0,10,0,-28" Width="350" Height="182" TextAlignment="Center"/>
+        </Grid>
+        <Grid Grid.Row="2" Margin="0,10,0,1">
+
+
+
+            <StackPanel>
+                <TextBox Name="Task_Title_txt" Height="70" FontSize="11" Text="{Binding Title}" VerticalAlignment="Center" TextAlignment="Center" HorizontalContentAlignment="Center"
+                         materialDesign:HintAssist.Hint="Enter title"  materialDesign:HintAssist.IsFloating="True" HorizontalAlignment="Center" Width="192"/>
+                <DatePicker
+                    x:Name="dueDateSet"
+                    
+                    SelectedDate="{Binding DueDateSet}"
+                    materialDesign:HintAssist.Hint="Enter Due date" 
+                    Margin="79,0"/>
+
+                <StackPanel>
+                    <TextBox
+                        Name="Task_Description_txt"
+                        Text="{Binding Description}"
+                        Style="{StaticResource MaterialDesignOutlinedTextFieldTextBox}"
+                        
+                        VerticalAlignment="Top"
+                        FontSize="11"
+                        AcceptsReturn="True"
+                        TextWrapping="Wrap"
+                        materialDesign:HintAssist.Hint="Enter description"
+                        HorizontalContentAlignment="Center"
+                        IsEnabled="{Binding path, ElementName=MaterialDesignOutlinedTextFieldTextBoxEnabledComboBox}" Height="69" Margin="80,5,79,0"  />
+                </StackPanel>
+            </StackPanel>
+
+
+        </Grid>
+        <Grid Grid.Row="3" Margin="0,66,0,-29">
+            <Button Name="Task_Add" HorizontalAlignment="Center" Width="90" Height="Auto" Background="#FF4467AB"  Click="Button_Add" Margin="129,-70,131,39">
+                Add
+            </Button>
+        </Grid>
+
+
+
+    </Grid>
+</Window>

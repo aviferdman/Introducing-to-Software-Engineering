@@ -1,0 +1,181 @@
+﻿2019-05-13 10:51:42,155 INFO [1] Milstone2.BuisnessLayer.UserControler.register - New user registration attempt. Email: t@t.com, password: Aa123
+2019-05-13 10:51:42,200 WARN [1] Milstone2.DataLayerColumn.Open - Failed to find column #Backlog in the database.
+2019-05-13 10:51:42,201 INFO [1] Milstone2.DataLayerColumn.save - Saving Column Backlog
+2019-05-13 10:51:42,206 WARN [1] Milstone2.DataLayerColumn.Open - Failed to find column #In progress in the database.
+2019-05-13 10:51:42,207 INFO [1] Milstone2.DataLayerColumn.save - Saving Column In progress
+2019-05-13 10:51:42,212 WARN [1] Milstone2.DataLayerColumn.Open - Failed to find column #Done in the database.
+2019-05-13 10:51:42,212 INFO [1] Milstone2.DataLayerColumn.save - Saving Column Done
+2019-05-13 10:51:42,220 WARN [1] Milstone2.DataLayerUser.open - Failed to find user t@t.com in the database.
+2019-05-13 10:51:42,228 INFO [1] Milstone2.User.save - the user t@t.com saved to the database.
+2019-05-13 10:51:42,228 INFO [1] Milstone2.User.register - The user t@t.com registered.
+2019-05-13 10:51:48,891 INFO [1] Milstone2.BuisnessLayer.UserControler.login - User: t@t.com log in attempt with password: Aa123
+2019-05-13 10:51:48,894 INFO [1] Milstone2.DataLayerColumn.save - Saving Column Backlog
+2019-05-13 10:51:48,896 INFO [1] Milstone2.Column.setMAX_TASKS - The capacity of column Backlog changed to: 2147483647
+2019-05-13 10:51:48,897 INFO [1] Milstone2.Board.open - Column Backlog loaded successfully from the database.
+2019-05-13 10:51:48,897 INFO [1] Milstone2.DataLayerColumn.save - Saving Column In progress
+2019-05-13 10:51:48,899 INFO [1] Milstone2.Column.setMAX_TASKS - The capacity of column In progress changed to: 2147483647
+2019-05-13 10:51:48,900 INFO [1] Milstone2.Board.open - Column In progress loaded successfully from the database.
+2019-05-13 10:51:48,900 INFO [1] Milstone2.DataLayerColumn.save - Saving Column Done
+2019-05-13 10:51:48,902 INFO [1] Milstone2.Column.setMAX_TASKS - The capacity of column Done changed to: 2147483647
+2019-05-13 10:51:48,903 INFO [1] Milstone2.Board.open - Column Done loaded successfully from the database.
+2019-05-13 10:51:48,904 WARN [1] Milstone2.DataLayerTask.Open - Failed to find task #0 in the database.
+2019-05-13 10:51:48,909 INFO [1] Milstone2.User.save - the user t@t.com saved to the database.
+2019-05-13 10:51:48,909 INFO [1] Milstone2.User.login - The user t@t.com logged in. 
+2019-05-13 10:51:48,927 INFO [1] Milstone2.BuisnessLayer.UserControler.getBoard - get board by: t@t.com
+2019-05-13 10:51:58,158 INFO [1] Milstone2.BuisnessLayer.UserControler.addTask - Add new task request by: t@t.com. Task: sadjlmk
+2019-05-13 10:51:58,167 INFO [1] Milstone2.DataLayerTask.save - Saving task #0. Title: sadjlmk
+2019-05-13 10:51:58,173 INFO [1] Milstone2.Task.save - Task #0 saved to the database successfully.
+2019-05-13 10:51:58,179 INFO [1] Milstone2.User.save - the user t@t.com saved to the database.
+2019-05-13 10:51:58,179 INFO [1] Milstone2.BuisnessLayer.UserControler.getBoard - get board by: t@t.com
+2019-05-13 10:52:03,527 INFO [1] Milstone2.BuisnessLayer.UserControler.addTask - Add new task request by: t@t.com. Task: sa;kldm
+2019-05-13 10:52:03,527 INFO [1] Milstone2.DataLayerTask.save - Saving task #1. Title: sa;kldm
+2019-05-13 10:52:03,531 INFO [1] Milstone2.Task.save - Task #1 saved to the database successfully.
+2019-05-13 10:52:03,538 INFO [1] Milstone2.User.save - the user t@t.com saved to the database.
+2019-05-13 10:52:03,538 INFO [1] Milstone2.BuisnessLayer.UserControler.getBoard - get board by: t@t.com
+2019-05-13 10:52:09,359 INFO [1] Milstone2.BuisnessLayer.UserControler.addTask - Add new task request by: t@t.com. Task: kaslmd
+2019-05-13 10:52:09,360 INFO [1] Milstone2.DataLayerTask.save - Saving task #2. Title: kaslmd
+2019-05-13 10:52:09,363 INFO [1] Milstone2.Task.save - Task #2 saved to the database successfully.
+2019-05-13 10:52:09,368 INFO [1] Milstone2.User.save - the user t@t.com saved to the database.
+2019-05-13 10:52:09,369 INFO [1] Milstone2.BuisnessLayer.UserControler.getBoard - get board by: t@t.com
+2019-05-13 10:52:15,157 INFO [1] Milstone2.BuisnessLayer.UserControler.addTask - Add new task request by: t@t.com. Task: sklm
+2019-05-13 10:52:15,157 INFO [1] Milstone2.DataLayerTask.save - Saving task #3. Title: sklm
+2019-05-13 10:52:15,161 INFO [1] Milstone2.Task.save - Task #3 saved to the database successfully.
+2019-05-13 10:52:15,166 INFO [1] Milstone2.User.save - the user t@t.com saved to the database.
+2019-05-13 10:52:15,167 INFO [1] Milstone2.BuisnessLayer.UserControler.getBoard - get board by: t@t.com
+2019-05-13 10:52:20,484 INFO [1] Milstone2.BuisnessLayer.UserControler.addTask - Add new task request by: t@t.com. Task: ZKLDs
+2019-05-13 10:52:20,484 INFO [1] Milstone2.DataLayerTask.save - Saving task #4. Title: ZKLDs
+2019-05-13 10:52:20,490 INFO [1] Milstone2.Task.save - Task #4 saved to the database successfully.
+2019-05-13 10:52:20,496 INFO [1] Milstone2.User.save - the user t@t.com saved to the database.
+2019-05-13 10:52:20,497 INFO [1] Milstone2.BuisnessLayer.UserControler.getBoard - get board by: t@t.com
+2019-05-13 10:52:25,679 INFO [1] Milstone2.BuisnessLayer.UserControler.addTask - Add new task request by: t@t.com. Task: askldmskl;
+2019-05-13 10:52:25,680 INFO [1] Milstone2.DataLayerTask.save - Saving task #5. Title: askldmskl;
+2019-05-13 10:52:25,683 INFO [1] Milstone2.Task.save - Task #5 saved to the database successfully.
+2019-05-13 10:52:25,689 INFO [1] Milstone2.User.save - the user t@t.com saved to the database.
+2019-05-13 10:52:25,690 INFO [1] Milstone2.BuisnessLayer.UserControler.getBoard - get board by: t@t.com
+2019-05-13 10:52:30,851 INFO [1] Milstone2.BuisnessLayer.UserControler.addTask - Add new task request by: t@t.com. Task: alksnd
+2019-05-13 10:52:30,851 INFO [1] Milstone2.DataLayerTask.save - Saving task #6. Title: alksnd
+2019-05-13 10:52:30,855 INFO [1] Milstone2.Task.save - Task #6 saved to the database successfully.
+2019-05-13 10:52:30,860 INFO [1] Milstone2.User.save - the user t@t.com saved to the database.
+2019-05-13 10:52:30,861 INFO [1] Milstone2.BuisnessLayer.UserControler.getBoard - get board by: t@t.com
+2019-05-13 10:52:36,876 INFO [1] Milstone2.BuisnessLayer.UserControler.addTask - Add new task request by: t@t.com. Task: lksa
+2019-05-13 10:52:36,876 INFO [1] Milstone2.DataLayerTask.save - Saving task #7. Title: lksa
+2019-05-13 10:52:36,881 INFO [1] Milstone2.Task.save - Task #7 saved to the database successfully.
+2019-05-13 10:52:36,887 INFO [1] Milstone2.User.save - the user t@t.com saved to the database.
+2019-05-13 10:52:36,887 INFO [1] Milstone2.BuisnessLayer.UserControler.getBoard - get board by: t@t.com
+2019-05-13 10:52:47,197 INFO [1] Milstone2.BuisnessLayer.UserControler.addTask - Add new task request by: t@t.com. Task: ladks
+2019-05-13 10:52:47,198 INFO [1] Milstone2.DataLayerTask.save - Saving task #8. Title: ladks
+2019-05-13 10:52:47,207 INFO [1] Milstone2.Task.save - Task #8 saved to the database successfully.
+2019-05-13 10:52:47,212 INFO [1] Milstone2.User.save - the user t@t.com saved to the database.
+2019-05-13 10:52:47,212 INFO [1] Milstone2.BuisnessLayer.UserControler.getBoard - get board by: t@t.com
+2019-05-13 10:52:53,908 INFO [1] Milstone2.BuisnessLayer.UserControler.addColumn - Add new column request by: t@t.com
+2019-05-13 10:52:53,909 INFO [1] Milstone2.DataLayerColumn.save - Saving Column saln
+2019-05-13 10:52:53,918 INFO [1] Milstone2.Board.addColumn - A new Column named saln added. The new column saved as column #4
+2019-05-13 10:52:53,924 INFO [1] Milstone2.User.save - the user t@t.com saved to the database.
+2019-05-13 10:52:53,924 INFO [1] Milstone2.BuisnessLayer.UserControler.getBoard - get board by: t@t.com
+2019-05-13 10:52:59,739 INFO [1] Milstone2.BuisnessLayer.UserControler.addColumn - Add new column request by: t@t.com
+2019-05-13 10:52:59,740 INFO [1] Milstone2.DataLayerColumn.save - Saving Column asldn
+2019-05-13 10:52:59,750 INFO [1] Milstone2.Board.addColumn - A new Column named asldn added. The new column saved as column #5
+2019-05-13 10:52:59,764 INFO [1] Milstone2.User.save - the user t@t.com saved to the database.
+2019-05-13 10:52:59,765 INFO [1] Milstone2.BuisnessLayer.UserControler.getBoard - get board by: t@t.com
+2019-05-13 10:53:06,561 INFO [1] Milstone2.BuisnessLayer.UserControler.addColumn - Add new column request by: t@t.com
+2019-05-13 10:53:06,561 INFO [1] Milstone2.DataLayerColumn.save - Saving Column asjkdna
+2019-05-13 10:53:06,566 INFO [1] Milstone2.Board.addColumn - A new Column named asjkdna added. The new column saved as column #6
+2019-05-13 10:53:06,572 INFO [1] Milstone2.User.save - the user t@t.com saved to the database.
+2019-05-13 10:53:06,573 INFO [1] Milstone2.BuisnessLayer.UserControler.getBoard - get board by: t@t.com
+2019-05-13 10:53:13,369 INFO [1] Milstone2.BuisnessLayer.UserControler.moveTask - Forward task request by: t@t.com. Task ID: 8
+2019-05-13 10:53:13,376 INFO [1] Milstone2.DataLayerTask.save - Saving task #8. Title: ladks
+2019-05-13 10:53:13,381 INFO [1] Milstone2.Task.save - Task #8 saved to the database successfully.
+2019-05-13 10:53:13,381 INFO [1] Milstone2.Board.moveTask - Board moving task #8 from column #1 to next column.
+2019-05-13 10:53:13,382 INFO [1] Milstone2.BuisnessLayer.UserControler.getBoard - get board by: t@t.com
+2019-05-13 10:53:14,980 INFO [1] Milstone2.BuisnessLayer.UserControler.moveTask - Forward task request by: t@t.com. Task ID: 6
+2019-05-13 10:53:14,980 INFO [1] Milstone2.DataLayerTask.save - Saving task #6. Title: alksnd
+2019-05-13 10:53:14,984 INFO [1] Milstone2.Task.save - Task #6 saved to the database successfully.
+2019-05-13 10:53:14,985 INFO [1] Milstone2.Board.moveTask - Board moving task #6 from column #1 to next column.
+2019-05-13 10:53:14,985 INFO [1] Milstone2.BuisnessLayer.UserControler.getBoard - get board by: t@t.com
+2019-05-13 10:53:16,384 INFO [1] Milstone2.BuisnessLayer.UserControler.moveTask - Forward task request by: t@t.com. Task ID: 7
+2019-05-13 10:53:16,384 INFO [1] Milstone2.DataLayerTask.save - Saving task #7. Title: lksa
+2019-05-13 10:53:16,388 INFO [1] Milstone2.Task.save - Task #7 saved to the database successfully.
+2019-05-13 10:53:16,388 INFO [1] Milstone2.Board.moveTask - Board moving task #7 from column #1 to next column.
+2019-05-13 10:53:16,388 INFO [1] Milstone2.BuisnessLayer.UserControler.getBoard - get board by: t@t.com
+2019-05-13 10:53:17,827 INFO [1] Milstone2.BuisnessLayer.UserControler.moveTask - Forward task request by: t@t.com. Task ID: 4
+2019-05-13 10:53:17,828 INFO [1] Milstone2.DataLayerTask.save - Saving task #4. Title: ZKLDs
+2019-05-13 10:53:17,831 INFO [1] Milstone2.Task.save - Task #4 saved to the database successfully.
+2019-05-13 10:53:17,832 INFO [1] Milstone2.Board.moveTask - Board moving task #4 from column #1 to next column.
+2019-05-13 10:53:17,832 INFO [1] Milstone2.BuisnessLayer.UserControler.getBoard - get board by: t@t.com
+2019-05-13 10:53:19,295 INFO [1] Milstone2.BuisnessLayer.UserControler.moveTask - Forward task request by: t@t.com. Task ID: 3
+2019-05-13 10:53:19,296 INFO [1] Milstone2.DataLayerTask.save - Saving task #3. Title: sklm
+2019-05-13 10:53:19,300 INFO [1] Milstone2.Task.save - Task #3 saved to the database successfully.
+2019-05-13 10:53:19,301 INFO [1] Milstone2.Board.moveTask - Board moving task #3 from column #1 to next column.
+2019-05-13 10:53:19,301 INFO [1] Milstone2.BuisnessLayer.UserControler.getBoard - get board by: t@t.com
+2019-05-13 10:53:29,926 INFO [1] Milstone2.BuisnessLayer.UserControler.editTaskTitle - Edit existing task title request by: t@t.com. Task ID: 4
+2019-05-13 10:53:29,928 INFO [1] Milstone2.DataLayerTask.save - Saving task #4. Title: ZKLDs
+2019-05-13 10:53:29,930 INFO [1] Milstone2.Task.save - Task #4 saved to the database successfully.
+2019-05-13 10:53:29,930 INFO [1] Milstone2.DataLayerTask.save - Saving task #4. Title: ZKLDs
+2019-05-13 10:53:29,933 INFO [1] Milstone2.Task.save - Task #4 saved to the database successfully.
+2019-05-13 10:53:29,933 INFO [1] Milstone2.Column.editTaskTitle - The title of task #4 has been updated.
+2019-05-13 10:53:29,934 INFO [1] Milstone2.BuisnessLayer.UserControler.editTaskDescription - Edit existing task description request by: t@t.com. Task ID: 4
+2019-05-13 10:53:29,936 INFO [1] Milstone2.DataLayerTask.save - Saving task #4. Title: ZKLDs
+2019-05-13 10:53:29,938 INFO [1] Milstone2.Task.save - Task #4 saved to the database successfully.
+2019-05-13 10:53:29,939 INFO [1] Milstone2.DataLayerTask.save - Saving task #4. Title: ZKLDs
+2019-05-13 10:53:29,941 INFO [1] Milstone2.Task.save - Task #4 saved to the database successfully.
+2019-05-13 10:53:29,941 INFO [1] Milstone2.Column.editDescreption - The description of task #4 has been updated.
+2019-05-13 10:53:29,942 INFO [1] Milstone2.BuisnessLayer.UserControler.editTaskDueDate - Edit existing task due date request by: t@t.com. Task ID: 4
+2019-05-13 10:53:29,944 INFO [1] Milstone2.DataLayerTask.save - Saving task #4. Title: ZKLDs
+2019-05-13 10:53:29,949 INFO [1] Milstone2.Task.save - Task #4 saved to the database successfully.
+2019-05-13 10:53:29,949 INFO [1] Milstone2.DataLayerTask.save - Saving task #4. Title: ZKLDs
+2019-05-13 10:53:29,951 INFO [1] Milstone2.Task.save - Task #4 saved to the database successfully.
+2019-05-13 10:53:29,952 INFO [1] Milstone2.Column.editDueDate - The due date of task #4 has been updated.
+2019-05-13 10:53:29,955 INFO [1] Milstone2.BuisnessLayer.UserControler.getBoard - get board by: t@t.com
+2019-05-13 10:53:32,343 INFO [1] Milstone2.BuisnessLayer.UserControler.moveTask - Forward task request by: t@t.com. Task ID: 2
+2019-05-13 10:53:32,344 INFO [1] Milstone2.DataLayerTask.save - Saving task #2. Title: kaslmd
+2019-05-13 10:53:32,349 INFO [1] Milstone2.Task.save - Task #2 saved to the database successfully.
+2019-05-13 10:53:32,349 INFO [1] Milstone2.Board.moveTask - Board moving task #2 from column #1 to next column.
+2019-05-13 10:53:32,349 INFO [1] Milstone2.BuisnessLayer.UserControler.getBoard - get board by: t@t.com
+2019-05-13 10:53:33,526 INFO [1] Milstone2.BuisnessLayer.UserControler.moveTask - Forward task request by: t@t.com. Task ID: 7
+2019-05-13 10:53:33,527 INFO [1] Milstone2.DataLayerTask.save - Saving task #7. Title: lksa
+2019-05-13 10:53:33,532 INFO [1] Milstone2.Task.save - Task #7 saved to the database successfully.
+2019-05-13 10:53:33,533 INFO [1] Milstone2.Board.moveTask - Board moving task #7 from column #2 to next column.
+2019-05-13 10:53:33,533 INFO [1] Milstone2.BuisnessLayer.UserControler.getBoard - get board by: t@t.com
+2019-05-13 10:53:34,731 INFO [1] Milstone2.BuisnessLayer.UserControler.moveTask - Forward task request by: t@t.com. Task ID: 6
+2019-05-13 10:53:34,731 INFO [1] Milstone2.DataLayerTask.save - Saving task #6. Title: alksnd
+2019-05-13 10:53:34,735 INFO [1] Milstone2.Task.save - Task #6 saved to the database successfully.
+2019-05-13 10:53:34,735 INFO [1] Milstone2.Board.moveTask - Board moving task #6 from column #2 to next column.
+2019-05-13 10:53:34,735 INFO [1] Milstone2.BuisnessLayer.UserControler.getBoard - get board by: t@t.com
+2019-05-13 10:53:36,082 INFO [1] Milstone2.BuisnessLayer.UserControler.moveTask - Forward task request by: t@t.com. Task ID: 3
+2019-05-13 10:53:36,082 INFO [1] Milstone2.DataLayerTask.save - Saving task #3. Title: sklm
+2019-05-13 10:53:36,087 INFO [1] Milstone2.Task.save - Task #3 saved to the database successfully.
+2019-05-13 10:53:36,087 INFO [1] Milstone2.Board.moveTask - Board moving task #3 from column #2 to next column.
+2019-05-13 10:53:36,107 INFO [1] Milstone2.BuisnessLayer.UserControler.getBoard - get board by: t@t.com
+2019-05-13 10:53:38,547 INFO [1] Milstone2.BuisnessLayer.UserControler.moveColumn - move column request by: t@t.com
+2019-05-13 10:53:38,549 INFO [1] Milstone2.DataLayerTask.save - Saving task #8. Title: ladks
+2019-05-13 10:53:38,553 INFO [1] Milstone2.Task.save - Task #8 saved to the database successfully.
+2019-05-13 10:53:38,553 INFO [1] Milstone2.DataLayerTask.save - Saving task #4. Title: ZKLDs
+2019-05-13 10:53:38,557 INFO [1] Milstone2.Task.save - Task #4 saved to the database successfully.
+2019-05-13 10:53:38,558 INFO [1] Milstone2.DataLayerTask.save - Saving task #2. Title: kaslmd
+2019-05-13 10:53:38,563 INFO [1] Milstone2.Task.save - Task #2 saved to the database successfully.
+2019-05-13 10:53:38,563 INFO [1] Milstone2.DataLayerTask.save - Saving task #6. Title: alksnd
+2019-05-13 10:53:38,565 INFO [1] Milstone2.Task.save - Task #6 saved to the database successfully.
+2019-05-13 10:53:38,566 INFO [1] Milstone2.DataLayerTask.save - Saving task #3. Title: sklm
+2019-05-13 10:53:38,568 INFO [1] Milstone2.Task.save - Task #3 saved to the database successfully.
+2019-05-13 10:53:38,568 INFO [1] Milstone2.DataLayerTask.save - Saving task #7. Title: lksa
+2019-05-13 10:53:38,570 INFO [1] Milstone2.Task.save - Task #7 saved to the database successfully.
+2019-05-13 10:53:38,570 INFO [1] Milstone2.Board.moveColumn - Column #2 moved forward
+2019-05-13 10:53:38,574 INFO [1] Milstone2.User.save - the user t@t.com saved to the database.
+2019-05-13 10:53:38,575 INFO [1] Milstone2.BuisnessLayer.UserControler.getBoard - get board by: t@t.com
+2019-05-13 10:53:49,452 INFO [1] Milstone2.BuisnessLayer.UserControler.changeColumnCapacity - Update column capacity request by: t@t.com. Column number: 6
+2019-05-13 10:53:49,454 WARN [1] Milstone2.Board.changeColumnCapacity - Cant change Capacity of the last coulmn
+2019-05-13 10:53:53,300 INFO [1] Milstone2.BuisnessLayer.UserControler.changeColumnCapacity - Update column capacity request by: t@t.com. Column number: 6
+2019-05-13 10:53:53,301 WARN [1] Milstone2.Board.changeColumnCapacity - Cant change Capacity of the last coulmn
+2019-05-13 10:54:02,339 INFO [1] Milstone2.BuisnessLayer.UserControler.changeColumnCapacity - Update column capacity request by: t@t.com. Column number: 5
+2019-05-13 10:54:02,340 INFO [1] Milstone2.DataLayerColumn.save - Saving Column asldn
+2019-05-13 10:54:02,345 INFO [1] Milstone2.Column.setMAX_TASKS - The capacity of column asldn changed to: 0
+2019-05-13 10:54:02,345 INFO [1] Milstone2.DataLayerColumn.save - Saving Column asldn
+2019-05-13 10:54:02,348 INFO [1] Milstone2.BuisnessLayer.UserControler.getBoard - get board by: t@t.com
+2019-05-13 10:54:14,865 INFO [1] Milstone2.BuisnessLayer.UserControler.changeColumnCapacity - Update column capacity request by: t@t.com. Column number: 5
+2019-05-13 10:54:14,866 INFO [1] Milstone2.DataLayerColumn.save - Saving Column asldn
+2019-05-13 10:54:14,868 INFO [1] Milstone2.Column.setMAX_TASKS - The capacity of column asldn changed to: 0
+2019-05-13 10:54:14,868 INFO [1] Milstone2.DataLayerColumn.save - Saving Column asldn
+2019-05-13 10:54:14,870 INFO [1] Milstone2.BuisnessLayer.UserControler.getBoard - get board by: t@t.com
+2019-05-13 10:54:19,656 INFO [1] Milstone2.BuisnessLayer.UserControler.logout - Logout by t@t.com
+2019-05-13 10:54:19,662 INFO [1] Milstone2.User.save - the user t@t.com saved to the database.
+2019-05-13 10:54:19,672 INFO [1] Milstone2.User.logout - The user t@t.com logged out.

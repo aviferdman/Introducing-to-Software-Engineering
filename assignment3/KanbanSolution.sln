@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.202
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KanbanProjectWPF", "KanbanProjectWPF\KanbanProjectWPF.csproj", "{C7C2857C-160C-456D-AD0D-F492E8335122}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C7C2857C-160C-456D-AD0D-F492E8335122}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7C2857C-160C-456D-AD0D-F492E8335122}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7C2857C-160C-456D-AD0D-F492E8335122}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7C2857C-160C-456D-AD0D-F492E8335122}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CC3FFD92-326C-402D-8B36-371819444BE8}
+	EndGlobalSection
+EndGlobal

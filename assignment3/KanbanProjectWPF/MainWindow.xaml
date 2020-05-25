@@ -1,0 +1,79 @@
+﻿<Window x:Class="KanbanProjectWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:KanbanProjectWPF"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes" 
+        mc:Ignorable="d" SizeToContent="Width" MinHeight="200" MinWidth="900"
+        ResizeMode="NoResize" Background="#FFE8EAED" 
+        WindowStartupLocation="CenterScreen" WindowStyle="None">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition  Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid Grid.ColumnSpan="4"  Background="#FF4467AB" x:Name="buttonPanel" MouseDown="Grid_MouseDown">
+            <Grid>
+                <TextBlock  Background="{x:Null}" Text="IPF Technology Kanban Board" Padding="30,3,3,3" HorizontalAlignment="Stretch" TextAlignment="Left" VerticalAlignment="Center" FontFamily="WS Simple Gallifreyan" Foreground="White" FontSize="16" TextDecorations="{x:Null}"/>
+            </Grid>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Margin="10,0">
+                <Button x:Name="Stop_Sort"  ToolTip="Cancel sort" Width="50" Height="25" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White" Click="Stop_Sort_Click" >
+                    <materialDesign:PackIcon Kind="KeyboardOff"/>
+                </Button>
+                <Button x:Name="Sort_By_Input"  ToolTip="Sort" Width="50" Height="25" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White" Click="Sort_By_Input_Click" >
+                    <materialDesign:PackIcon Kind="KeyboardOutline"/>
+                </Button>
+                <Button x:Name="Move_Task"  ToolTip="Move Task" Width="50" Height="25" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White" Click="Move_Task_Click">
+                    <materialDesign:PackIcon Kind="Forward"/>
+                </Button>
+                <Button x:Name="Edit_Task"  ToolTip="Edit Task" Width="50" Height="25" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White" Click="Edit_Task_Click" >
+                    <materialDesign:PackIcon Kind="Edit"/>
+                </Button>
+                <Button x:Name="Add_New_Task"  ToolTip="Add Task" Width="50" Height="25" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White" Click="Add_New_Task_Click" >
+                    <materialDesign:PackIcon Kind="Add"/>
+                </Button>
+                <Button x:Name="Move_Column_Left"   ToolTip="Move Column Left" Width="50" Height="25" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White" Click="Move_Column_Left_Click" >
+                    <materialDesign:PackIcon Kind="ArrowCollapseLeft"/>
+                </Button>
+                <Button x:Name="Move_Column_Right"   ToolTip="Move Column Right" Width="50" Height="25" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White" Click="Move_Column_Right_Click" >
+                    <materialDesign:PackIcon Kind="ArrowCollapseRight"/>
+                </Button>
+                <Button x:Name="Eidt_Column_Capacity"  ToolTip="Edit Column Capacity" Width="50" Height="25" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White" Click="Eidt_Column_Capacity_Click">
+                    <materialDesign:PackIcon Kind="TableEdit"/>
+                </Button>
+                <Button x:Name="Remove_Column_Button"  ToolTip="Remove Column" Width="50" Height="25" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White" Click="Remove_Column_Button_Click">
+                    <materialDesign:PackIcon Kind="TableColumnRemove"/>
+                </Button>
+                <Button x:Name="Add_Column_Button"  ToolTip="Add Column" Width="50" Height="25" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White" Click="Add_Column_Button_Click">
+                    <materialDesign:PackIcon Kind="TableColumnPlusAfter"/>
+                </Button>
+                <Button x:Name="Log_Off_Button" ToolTip="Logout" Width="50" Height="25" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White" Click="Log_Off_Button_Click">
+                    <materialDesign:PackIcon Kind="Logout"/>
+                </Button>
+                <Button x:Name="Power_Button"  ToolTip="Exit"  Width="50" Height="25" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White" Click="Power_Button_Click">
+                    <materialDesign:PackIcon Kind="Power"/>
+                </Button>
+
+            </StackPanel>
+        </Grid>
+
+
+        <Grid Grid.Row="1" Grid.RowSpan="2" >
+            <ListView Name="MainBoard" ScrollViewer.VerticalScrollBarVisibility="Auto" ScrollViewer.HorizontalScrollBarVisibility="Auto" VerticalContentAlignment="Top" Margin="0,26,0,0">
+                <ListView.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <StackPanel Orientation="Horizontal" VerticalAlignment="Top" />
+                    </ItemsPanelTemplate>
+                </ListView.ItemsPanel>
+            </ListView>
+        </Grid>
+
+        <Grid Margin="0,0,0,390" Grid.Column="1"/>
+    </Grid>
+
+
+</Window>
